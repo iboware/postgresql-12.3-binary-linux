@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.3
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/iboware/workspace/pgsql/include
+Libs: -L/home/iboware/workspace/pgsql/lib -lecpg
+Libs.private:  -lm

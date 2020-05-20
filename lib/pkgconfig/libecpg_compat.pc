@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.3
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/home/iboware/workspace/pgsql/include
+Libs: -L/home/iboware/workspace/pgsql/lib -lecpg_compat
+Libs.private:  -lm

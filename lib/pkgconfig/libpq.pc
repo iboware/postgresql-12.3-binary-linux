@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.3
+Requires: 
+Requires.private: 
+Cflags: -I/home/iboware/workspace/pgsql/include
+Libs: -L/home/iboware/workspace/pgsql/lib -lpq
+Libs.private:  -lcrypt -lm
